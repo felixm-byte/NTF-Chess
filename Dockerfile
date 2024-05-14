@@ -8,4 +8,4 @@ COPY . .
 
 EXPOSE 1337
 
-CMD [ "powershell", "flask --app . run --debug" ]
+CMD [ "python", "flask --app . run --debug" ]
