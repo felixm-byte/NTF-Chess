@@ -8,4 +8,4 @@ COPY . .
 
 EXPOSE 1337
 
-CMD [ "python", "flask --app . run --debug" ]
+CMD [ "flask", "run", "--host=0.0.0.0", "--port=1337" ]
